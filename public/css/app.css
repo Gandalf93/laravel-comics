@@ -30,10 +30,10 @@ header .container ul li a {
   color: black;
 }
 
-.main {
+main {
   background-color: #302727;
 }
-.main .card-container {
+main .card-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -42,10 +42,64 @@ header .container ul li a {
   margin: auto;
   padding: 20px 0;
 }
-.main .card-container .card {
+main .card-container .card {
   width: 15%;
   color: white;
 }
-.main .card-container .card img {
+main .card-container .card img {
   width: 100%;
+}
+
+footer .foot-alto {
+  display: flex;
+  justify-content: space-around;
+}
+footer .foot-alto div {
+  display: flex;
+}
+footer .foot-alto div ul {
+  margin: 20px;
+}
+footer .foot-alto div ul h3 {
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+footer .foot-alto div ul li {
+  list-style: none;
+  text-transform: capitalize;
+  margin: 10px 0;
+}
+footer .foot-alto img {
+  width: 40%;
+}
+footer .foot-basso {
+  background-color: black;
+  height: 100px;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: uppercase;
+}
+footer .foot-basso a {
+  margin: 0 10px;
+  text-decoration: none;
+}
+footer .link-foot-basso {
+  display: flex;
+  align-items: center;
+}
+footer .link-foot-basso :first-child {
+  color: #0044ff;
+  font-size: 20px;
+}
+footer .link-foot-basso a {
+  margin: 0 10px;
+  text-decoration: none;
+}
+footer .btn {
+  padding: 10px;
+  border: 1px solid blue;
+  color: white;
 }

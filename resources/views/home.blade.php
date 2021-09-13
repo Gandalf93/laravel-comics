@@ -4,7 +4,7 @@
 
 @section('content')
 
-<div class="main">
+<main>
     <div class="card-container">   
         @foreach($cardsData as $cardData)
         <div class="card">
@@ -13,6 +13,6 @@
           </div>
         @endforeach
     </div>
-</div>
+</main>
 
 @endsection
