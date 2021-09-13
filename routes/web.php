@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $data= [
         'cardsData' => config('comics'),
-        'shopItems' => config('shop')
+        
     ];
     return view('home',$data);
     
